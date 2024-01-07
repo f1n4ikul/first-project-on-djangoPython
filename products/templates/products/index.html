@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/main-static/main-site/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Josefin+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@1,500&family=Poppins:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="navbarchik">
+        <div class="top-nav">
+            <div class="top-nav-links">
+                <a href="#">Сервис</a>
+                <a href="#">Сотрудничество</a>
+                <a href="#">Заказать звонок</a>
+                <div class="links-img">
+                    <a href="#">
+                        <img src="static/main-site/img/navbar/viber 1.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="static/main-site/img/navbar/003-whatsapp 1.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="static/main-site/img/navbar/003-telegram 1.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="top-nav-number">
+                <p>+7 (800) 505-54-61</p>
+                <img src="static/main-site/img/navbar/Group 1659.svg" alt="">
+                <p>{{ content }}</p>
+            </div>
+        </div>
+        <hr class="top-nav-hr">
+        <div class="center-nav">
+            <div class="center-logo">
+                <p>KUGGO</p>
+            </div>
+            <div class="center-button-search">
+                <button>
+                    <div class="container-line">
+                        <div class="line-long"></div>
+                        <div class="line-long"></div>
+                        <div class="line-short"></div>
+                    </div>
+                    <a href="http://localhost:8000/products/">каталог</a>
+                </button>
+                <div class="center-search">
+                    <form class="form" action="">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><button class="dropdown-item" type="button">Action</button></li>
+                                <li><button class="dropdown-item" type="button">Another action</button></li>
+                                <li><button class="dropdown-item" type="button">Something else here</button></li>
+                            </ul>
+                        </div>
+
+
+
+
+                        <input type="text" name="" id="" placeholder="Искать здесь...">
+                        <button class="form-button-last">
+                            <img src="static/main-site/img/navbar/Search.svg" alt="">
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="links-search-heart">
+                <img src="static/main-site/img/navbar/balance 2.svg" alt="">
+                <img src="static/main-site/img/navbar/Heart.svg" alt="">
+                <div class="basket">
+                    <img src="static/main-site/img/navbar/shopping-cart 2.svg" alt="">
+                    <a href="#">Корзина</a>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-nav">
+            <div class="bottom-nav-menu">
+                <ul class="nav-links">
+                    <input type="checkbox" id="checkbox_toggle">
+                    <label for="checkbox_toggle" class="hamburger"><span class="hamburger-line"></span></label>
+                    <div class="menu-hamburger">
+                        <li><a href="#">О магазине</a></li>
+                        <li><div class="accessible-sale">
+                                <a href="#">Доставка и оплата</a>
+                                <div class="blue-sale"><p>Доступна рассрочка</p></div>
+                            </div>
+                        </li>
+                        <li><a href="#">Тест-драйв</a></li>
+                        <li><a href="#">Блог</a></li>
+                        <li>
+                            <div class="bottom-sale">
+                                <a href="#">Акции</a>
+                                <img src="static/img/navbar/Group 150.svg" alt="">
+                            </div>
+                        </li>
+                        
+                    </div>
+                </ul>
+                
+            </div>
+        </div>
+    </section>
+    <section>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <div class="ol-li breadcrumb-item">
+                    <img src="static/main-site/img/navbar/Home.svg" alt="">
+                <li class="breadcrumb-item active" aria-current="page">Главная</li>
+                </div>
+                
+                <li class="breadcrumb-item active" aria-current="page">Тест-драйв</li>
+            </ol>
+        </nav>
+        <div class="test-drive">
+            <img  src="static/main-site/img/test-drive/Group 1796.png" alt="">
+            <div class="test-drive-no-bg">
+                <div class="test-drive-adress">
+                    <img src="static/main-site/img/test-drive/pin 2.svg" alt="">
+                    <p>Восточно-Кругликовская улица, 86</p>
+                    <p>Вт - Сб 10:00 - 20:00</p>
+                </div>
+                <div class="test-drive-text">
+                    <h1>Запишитесь на бесплатный<br> тест-драйв электросамокатов</h1>
+                    <p>в Москве без ограничения по времени</p>
+                </div>
+                <div class="test-drive-cards">
+                    <div class="drive-card">
+                        <div class="test-drive-img-card">
+                            <img src="static/main-site/img/test-drive/scooter-svgrepo-com 1.svg" alt="">
+                        </div>
+                        <p>Поймете, какая<br> модель вам подходит</p>
+                    </div>
+                    <div class="drive-card">
+                        <div class="test-drive-img-card">
+                            <img src="static/main-site/img/test-drive/energy-svgrepo-com 1.svg" alt="">
+                        </div>
+                        <p>Проверите лучшие<br> самокаты в деле</p>
+                    </div>
+                </div>
+                <div class="drive-button">
+                    <button>Записаться</button>
+                </div>
+            </div>
+            
+            
+            
+        </div>
+    </section>
+    <section class="top-margin">
+        <div class="container-action-first">
+            <div class="text-action-first">
+                <h2>Определите максимально<br>подходящую вам модель<br>не теоретически, а на практике</h2>
+                
+                <div class="test-drive-text-first">
+                    <p>Тест-драйв поможет:</p>
+                    <div class="text-test-drive-first">
+                        <div class="card-test-drive-first">
+                            <img src="static/main-site/img/test-drive/CheckCircle.svg" alt="">
+                            <p>Понять подходит ли вам конкретная модель;</p>
+                        </div>
+                        <div class="card-test-drive-first">
+                            <img src="static/main-site/img/test-drive/CheckCircle.svg" alt="">
+                            <p>Испытать самокат в «реальной жизни»;</p>
+                        </div>
+                        <div class="card-test-drive-first">
+                            <img src="static/main-site/img/test-drive/CheckCircle.svg" alt="">
+                            <p>Оценить удобство хранения и эксплуатации;</p>
+                        </div>
+                        <div class="card-test-drive-first">
+                            <img src="static/main-site/img/test-drive/CheckCircle.svg" alt="">
+                            <p>Узнать реальные характеристики и возможности модели.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="img-action-first">
+                <img src="static/main-site/img/test-drive/E-Scooters_Thumb_63e9c687-3e93-4ac9-b7a6-9d9953ba9696_1000x 1.png" alt="">
+            </div>
+        </div>
+        <div class="container-action-second">
+            <div class="text-action-second"></div>
+            <div class="img-action-second">
+                <img src="" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="top-margin">
+        <div class="container-action-first">
+            <div class="img-action-first">
+                <img src="static/main-site/img/test-drive/E-Scooters_Thumb_63e9c687-3e93-4ac9-b7a6-9d9953ba9696_1000x 1.png" alt="">
+            </div>
+            <div class="text-action-first">
+                <h2>Определите максимально<br>подходящую вам модель<br>не теоретически, а на практике</h2>
+                
+                <div class="test-drive-text-first">
+                    <p>Тест-драйв поможет:</p>
+                    <div class="text-test-drive-first">
+                        <div class="card-test-drive-first">
+                            <img src="static/main-site/img/test-drive/CheckCircle.svg" alt="">
+                            <p>Понять подходит ли вам конкретная модель;</p>
+                        </div>
+                        <div class="card-test-drive-first">
+                            <img src="static/main-site/img/test-drive/CheckCircle.svg" alt="">
+                            <p>Испытать самокат в «реальной жизни»;</p>
+                        </div>
+                        <div class="card-test-drive-first">
+                            <img src="static/main-site/img/test-drive/CheckCircle.svg" alt="">
+                            <p>Оценить удобство хранения и эксплуатации;</p>
+                        </div>
+                        <div class="card-test-drive-first">
+                            <img src="static/main-site/img/test-drive/CheckCircle.svg" alt="">
+                            <p>Узнать реальные характеристики и возможности модели.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-card">
+        <div class="container-section-card">
+            <div class="container-text"><h2>Сейчас для тест драйва и обучения<br> доступны следующие модели</h2></div>
+            <div class="container-card">
+                <div class="card">
+                    <div class="top-card">
+                        <div class="new-img">
+                            <div class="div">
+                                 <p>Новинка</p>
+                                 <img src="static/main-site/img/test-drive/card/balance 2.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="img-card">
+                            <img src="static/main-site/img/test-drive/card/pngwing.com.png" alt="">
+                        </div>
+                    </div>
+                    <div class="bottom-card">
+                        <div class="container-bottom-card">
+                             <div class="logo-bottom-card">
+                                <p>Kugoo Kirin M4</p>
+                            </div>
+                            <div class="technical-text">
+                                <div class="technical-power-text">
+                                    <div class="power-img">
+                                        <img src="static/main-site/img/test-drive/card/accumulator 1.svg" alt="">
+                                        <p>2000 mAh</p>
+                                    </div>
+                                    <div class="power-text">
+                                        <img src="static/main-site/img/test-drive/card/power 1.svg" alt="">
+                                        <p>1,2 л.с.</p>
+                                    </div>
+                                </div>
+                                <div class="power-text">
+                                    <div class="action-power-img">
+                                        <img src="static/main-site/img/test-drive/card/speedometer 1.svg" alt="">
+                                        <p>60 км/ч</p>
+                                    </div>
+                                    <div class="action-power-text">
+                                        <img src="static/main-site/img/test-drive/card/timer 1.svg" alt="">
+                                        <p>5 часов</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="price-basket-card">
+                                <div class="price-card">
+                                    <p>39 900 ₽</p>
+                                    <p>29 900 ₽</p>
+                                </div>
+                                <div class="basket-card">
+                                    <div class="circle-card">
+                                        <img src="static/main-site/img/test-drive/card/shopping-cart-2 1.svg" alt="">
+                                    </div>
+                                    <div class="circle-card">
+                                        <img src="static/main-site/img/test-drive/card/Heart.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="button-card-bottom">
+                                <button class="btn-card-y">Записаться на тест драйв</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                     <div class="top-card">
+                        <div class="new-img">
+                            <div class="div">
+                                 <p>Новинка</p>
+                                 <img src="static/main-site/img/test-drive/card/balance 2.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="img-card">
+                            <img src="static/main-site/img/test-drive/card/pngwing.com.png" alt="">
+                        </div>
+                    </div>
+                    <div class="bottom-card">
+                        <div class="container-bottom-card">
+                             <div class="logo-bottom-card">
+                                <p>Kugoo Kirin M4</p>
+                            </div>
+                            <div class="technical-text">
+                                <div class="technical-power-text">
+                                    <div class="power-img">
+                                        <img src="static/main-site/img/test-drive/card/accumulator 1.svg" alt="">
+                                        <p>2000 mAh</p>
+                                    </div>
+                                    <div class="power-text">
+                                        <img src="static/main-site/img/test-drive/card/power 1.svg" alt="">
+                                        <p>1,2 л.с.</p>
+                                    </div>
+                                </div>
+                                <div class="power-text">
+                                    <div class="action-power-img">
+                                        <img src="static/main-site/img/test-drive/card/speedometer 1.svg" alt="">
+                                        <p>60 км/ч</p>
+                                    </div>
+                                    <div class="action-power-text">
+                                        <img src="static/main-site/img/test-drive/card/timer 1.svg" alt="">
+                                        <p>5 часов</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="price-basket-card">
+                                <div class="price-card">
+                                    <p>39 900 ₽</p>
+                                    <p>29 900 ₽</p>
+                                </div>
+                                <div class="basket-card">
+                                    <div class="circle-card">
+                                        <img src="static/main-site/img/test-drive/card/shopping-cart-2 1.svg" alt="">
+                                    </div>
+                                    <div class="circle-card">
+                                        <img src="static/main-site/img/test-drive/card/Heart.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="button-card-bottom">
+                                <button class="btn-card-y">Записаться на тест драйв</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                     <div class="top-card">
+                        <div class="new-img">
+                            <div class="div">
+                                 <p>Новинка</p>
+                                 <img src="static/main-site/img/test-drive/card/balance 2.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="img-card">
+                            <img src="static/main-site/img/test-drive/card/pngwing.com.png" alt="">
+                        </div>
+                    </div>
+                    <div class="bottom-card">
+                        <div class="container-bottom-card">
+                             <div class="logo-bottom-card">
+                                <p>Kugoo Kirin M4</p>
+                            </div>
+                            <div class="technical-text">
+                                <div class="technical-power-text">
+                                    <div class="power-img">
+                                        <img src="static/main-site/img/test-drive/card/accumulator 1.svg" alt="">
+                                        <p>2000 mAh</p>
+                                    </div>
+                                    <div class="power-text">
+                                        <img src="static/main-site/img/test-drive/card/power 1.svg" alt="">
+                                        <p>1,2 л.с.</p>
+                                    </div>
+                                </div>
+                                <div class="power-text">
+                                    <div class="action-power-img">
+                                        <img src="static/main-site/img/test-drive/card/speedometer 1.svg" alt="">
+                                        <p>60 км/ч</p>
+                                    </div>
+                                    <div class="action-power-text">
+                                        <img src="static/main-site/img/test-drive/card/timer 1.svg" alt="">
+                                        <p>5 часов</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="price-basket-card">
+                                <div class="price-card">
+                                    <p>39 900 ₽</p>
+                                    <p>29 900 ₽</p>
+                                </div>
+                                <div class="basket-card">
+                                    <div class="circle-card">
+                                        <img src="static/main-site/img/test-drive/card/shopping-cart-2 1.svg" alt="">
+                                    </div>
+                                    <div class="circle-card">
+                                        <img src="static/main-site/img/test-drive/card/Heart.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="button-card-bottom">
+                                <button class="btn-card-y">Записаться на тест драйв</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                     <div class="top-card">
+                        <div class="new-img">
+                            <div class="div">
+                                 <p>Новинка</p>
+                                 <img src="static/main-site/img/test-drive/card/balance 2.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="img-card">
+                            <img src="static/main-site/img/test-drive/card/pngwing.com.png" alt="">
+                        </div>
+                    </div>
+                    <div class="bottom-card">
+                        <div class="container-bottom-card">
+                             <div class="logo-bottom-card">
+                                <p>Kugoo Kirin M4</p>
+                            </div>
+                            <div class="technical-text">
+                                <div class="technical-power-text">
+                                    <div class="power-img">
+                                        <img src="static/main-site/img/test-drive/card/accumulator 1.svg" alt="">
+                                        <p>2000 mAh</p>
+                                    </div>
+                                    <div class="power-text">
+                                        <img src="static/main-site/img/test-drive/card/power 1.svg" alt="">
+                                        <p>1,2 л.с.</p>
+                                    </div>
+                                </div>
+                                <div class="power-text">
+                                    <div class="action-power-img">
+                                        <img src="static/main-site/img/test-drive/card/speedometer 1.svg" alt="">
+                                        <p>60 км/ч</p>
+                                    </div>
+                                    <div class="action-power-text">
+                                        <img src="static/main-site/img/test-drive/card/timer 1.svg" alt="">
+                                        <p>5 часов</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="price-basket-card">
+                                <div class="price-card">
+                                    <p>39 900 ₽</p>
+                                    <p>29 900 ₽</p>
+                                </div>
+                                <div class="basket-card">
+                                    <div class="circle-card">
+                                        <img src="static/main-site/img/test-drive/card/shopping-cart-2 1.svg" alt="">
+                                    </div>
+                                    <div class="circle-card">
+                                        <img src="static/main-site/img/test-drive/card/Heart.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="button-card-bottom">
+                                <button class="btn-card-y">Записаться на тест драйв</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="test-application">
+        <div class="container-test">
+            <div class="container-text-test">
+                <h2>Нет нужной модели, которую<br> хотите протестировать?</h2>
+                <div class="text-test">
+                    <p>Оставьте заявку, и менеджер подберет нужный самокат</p>
+                    <div class="btn-form">
+                        <input type="number" placeholder="+7 (___) __ - __ - __">
+                        <button>Оставь заявку на тест-драйв</button>
+                    </div>
+                    <div class="checkbox-test">
+                        <input type="checkbox" >
+                        <p>Нажимая на кнопку, вы соглашаетесь на обработку<br> персональных данных и <a href="">политикой конфиденциальности</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="img-test">
+                <img src="static/main-site/img/test/portrait-cheerful-attractive-young-woman-longsleeve-standing-with-arms-crossed-smiling_adobespark 1.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="blue-form">
+        <div class="container-form">
+            <div class="text-form">
+                <h4>Оставьте свою почту и станьте первым,<br>кто получит скидку на новые самокаты</h4>
+            </div>
+            <div class="contain-form">
+                <input type="email" value="Введите Ваш email">
+                <button>Подписаться</button>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container-footer">
+            <div class="top-foot">
+                <div class="left-top-foot">
+                    <div class="catalog-left-top-foot">
+                        <h4>Каталог товаров</h4>
+                        <ul class="container-text-left1-top-foot">
+                            <li>
+                                <a href="#">Электросамокаты</a>
+                            </li>
+                            <li>
+                                <a href="#">Электроскутеры</a>
+                            </li>
+                            <li>
+                                <a href="#">Электровелосипеды</a>
+                            </li>
+                            <li>
+                                <a href="#">Электровелосипеды</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="container-consumers-left-top-foot">
+                        <div class="consumers-left-top-foot">
+                            <h4>Покупателям</h4>
+                            <div class="container-text-left-top-foot">
+                               <ul class="container-text-left1-top-foot">
+                                    <li>
+                                        <a href="#">Сервисный центр</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Доставка и оплата</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Рассрочка</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Тест-драйв</a>
+                                    </li>
+                               </ul>
+                                <ul class="container-text-left1-top-foot">
+                                    <li>
+                                        <a href="#">Блог</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Сотрудничество</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Контакты</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Акции</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-top-foot">
+                    <div class="contacts-right-top-foot">
+                        <h4>Контакты</h4>
+                        <a href="#">Заказать звонок</a>
+                    </div>
+                    <div class="container-center-right-top-foot">
+                        <div class="center-right-top-foot">
+                            <p>Call-центр</p>
+                            <h4>+7 (800) 505-54-61</h4>
+                            <p>Пн-Вс 10:00 - 20:00</p>
+                        </div>
+                        <div class="center-right-top-foot">
+                            <p>Call-центр</p>
+                            <h4>+7 (800) 505-54-61</h4>
+                            <p>Пн-Вс 10:00 - 20:00</p>
+                        </div>
+                    </div>
+                    <div class="container-shops-right-top-foot">
+                        <div class="shops-right-top-foot">
+                            <h5>Магазин в Москве<br>ул. Ткацкая, 5 стр. 16</h5>
+                            <p>+7 (499) 406 15 87</p>
+                        </div>
+                        <div class="shops-right-top-foot">
+                            <h5>Магазин в Санкт-<br>Петербурге<br>ул. Фрунзе, 2</h5>
+                            <p>+7 (499) 406 15 87</p>
+                        </div>
+                        <div class="shops-right-top-foot">
+                            <h5>Магазин в Краснодаре<br>ул. Восточно-<br>.Кругликовская, 86</h5>
+                            <p>+7 (499) 406 15 87</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="mid-foot">
+                <div class="left-mid-foot-logo-plat">
+                    <div class="left-logo-mid-foot">
+                        <p>KUGOO</p>
+                    </div>
+                    <div class="plat-left-mid-foot">
+                        <img src="static/main-site/img/footer/g13546.svg" alt="">
+                        <img src="static/main-site/img/footer/Group (3).svg" alt="">
+                    </div>
+                </div>
+                <div class="right-mid-foot-social">
+                    <div class="card-foot-mid-social">
+                        <div class="logo-social-mid">
+                            <img src="static/main-site/img/footer/012-vk 1.svg" alt="">
+                        </div>
+                        <div class="text-social-mid">
+                            <h6>Вконтакте</h6>
+                            <p>3 200</p>
+                        </div>
+                    </div>
+                    <div class="card-foot-mid-social">
+                         <div class="logo-social-mid">
+                            <img src="static/main-site/img/footer/013-instagram 1.svg" alt="">
+                        </div>
+                        <div class="text-social-mid">
+                            <h6>Instagram</h6>
+                            <p>10 602</p>
+                        </div>
+                    </div>
+                    <div class="card-foot-mid-social">
+                         <div class="logo-social-mid">
+                            <img src="static/main-site/img/footer/018-youtube 1.svg" alt="">
+                        </div>
+                        <div class="text-social-mid">
+                            <h6>YouTube</h6>
+                            <p>3 603</p>
+                        </div>
+                    </div>
+                    <div class="card-foot-mid-social">
+                         <div class="logo-social-mid">
+                            <img src="static/main-site/img/footer/003-telegram 2.svg" alt="">
+                        </div>
+                        <div class="text-social-mid">
+                            <h6>Telegram</h6>
+                            <p>432</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="bot-foot">
+                <div class="left-bot-foot">
+                    <div class="text-left-bot-foot">
+                        <p>Реквизиты</p>
+                        <p>Политика конфидецифльности</p>
+                    </div>
+                </div>
+                <div class="right-bot-foot">
+                    <div class="container-card-right-bot-foot">
+                        <div class="card-right-bot-foot">
+                            <img src="static/main-site/img/footer/GooglePay.svg" alt="">
+                        </div>
+                         <div class="card-right-bot-foot">
+                            <img src="static/main-site/img/footer/ApplePay.svg" alt="">
+                        </div>
+                         <div class="card-right-bot-foot">
+                            <img src="static/main-site/img/footer/visa-logo.svg" alt="">
+                        </div>
+                         <div class="card-right-bot-foot">
+                            <img src="static/main-site/img/footer/Mastercard.svg" alt="">
+                        </div>
+                         <div class="card-right-bot-foot">
+                            <img src="static/main-site/img/footer/Maestro.svg" alt="">
+                        </div>
+                         <div class="card-right-bot-foot">
+                            <img src="static/main-site/img/footer/Webmoney.svg" alt="">
+                        </div>
+                         <div class="card-right-bot-foot">
+                            <img src="static/main-site/img/footer/Qiwi.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="online-right-bot-foot">
+                        <p>Online чат</p>
+                        <div class="social-right-bot-foot">
+                            <img src="static/main-site/img/footer/viber 1.svg" alt="">
+                            <img src="static/main-site/img/footer/003-whatsapp 1.svg" alt="">
+                            <img src="static/main-site/img/footer/003-telegram 1.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
