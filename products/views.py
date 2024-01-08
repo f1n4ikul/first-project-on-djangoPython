@@ -7,10 +7,13 @@ from django.http import HttpResponse
 
 def index(request) -> HttpResponse:
     context: dict ={
-        'title': 'Home',
-        'content': 'Hello World!'
+        'title': 'Home - first page',
+        'content': 'Hello World!',
+        'product': 'Social Media',
+        'white': 'White people - is a great person'
     }
+
     return render(request, 'products/index.html', context)
 
 def products(request):
-    return HttpResponse('About page')
+    return render(request, 'products/products.html')
